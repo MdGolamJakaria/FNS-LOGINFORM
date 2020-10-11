@@ -1,0 +1,71 @@
+body{
+    background-color:#4F3067 ;
+}
+.home{
+    height: 100vh;
+}
+.left-side{
+    background-image: linear-gradient(#FFFFFF,#D0C6D7) ;
+    color:#6c3596;
+    padding:30px;
+}
+h6.return-home {
+    margin-bottom: 60px;
+}
+.header-text{
+    margin:0 0 50px 0;
+}
+.row.full-content {
+    box-shadow: 0px 0px 10px black;
+}
+.right-side{
+    background-image:linear-gradient(45deg , #bb22cfc0 ,#e04f93b9 ), url('../images/image1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+}
+.submit-btn{
+    background-color:#6c3596;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20% 0 30px 0 ;
+    padding: 5px 25px;
+    box-shadow: 0px 3px 6px #4c4c4c;
+    border-radius: 10px;
+}
+.userInputs{
+    display: block;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    color:#6c3596;
+    margin: 0 0 20px 15px;
+    padding: 0 15px 0 15px;
+    background:none;
+} 
+.userInputs::placeholder{
+    color:#6c3596;
+    font-weight: 500;
+    font-size: 14px;
+}
+.back-btn-area h6 i{
+    margin-right: 10px;    
+}
+.back-btn-area{
+    margin-left: 4px;
+}
+.content::after{
+    content: "";
+    display: block;
+    height: 5px;
+    background-image: url(../images/Dots-01.png);
+    width: 114px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 9px;
+    position: absolute;
+    bottom: 50px;
+    left: 44%;
+}
